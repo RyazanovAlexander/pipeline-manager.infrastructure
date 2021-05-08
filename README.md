@@ -1,6 +1,6 @@
 # Pipeline Manager IaaS
 
-The pipeline manager Infrastructure is defined by the following resources:
+The Pipeline manager Infrastructure is defined by the following resources:
 1) [TiDB](https://pingcap.com) - cloud-native, distributed SQL database for elastic scale and real-time analytics.
 Used to store App Grains states and task list.
 2) [Prometheus Operator](https://prometheus-operator.dev/) - provides Kubernetes native deployment and management of Prometheus and related monitoring components. The purpose of this project is to simplify and automate the configuration of a Prometheus based monitoring stack for Kubernetes clusters.
