@@ -1,2 +1,2 @@
-# pipeline-manager.infrastructure
+# Pipeline Manager IaaS
 IaaS for the Pipeline Manager
