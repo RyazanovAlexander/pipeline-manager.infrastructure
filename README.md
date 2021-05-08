@@ -1,5 +1,4 @@
 # Pipeline Manager IaaS
-IaaS for the Pipeline Manager
 
 The pipeline manager Infrastructure is defined by the following resources:
 1) [TiDB](https://pingcap.com) - cloud-native, distributed SQL database for elastic scale and real-time analytics.
