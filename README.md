@@ -8,7 +8,7 @@ Used for storing and analyzing metrics and logs.
 3) [KEDA](https://keda.sh/) - allows for fine-grained autoscaling (including to/from zero) for event driven Kubernetes workloads. KEDA serves as a Kubernetes Metrics Server and allows users to define autoscaling rules using a dedicated Kubernetes custom resource definition.
 Used for scaling platform services and private resources of user applications.
 
-## Installation
+## Install
 Run the following command in the root of the directory:
 ```
 make install
