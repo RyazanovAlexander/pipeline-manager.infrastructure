@@ -5,5 +5,17 @@ The Pipeline manager Infrastructure is defined by the following resources:
 Used to store [App Grains](https://dotnet.github.io/orleans/docs/index.html) states and task list.
 2) [Prometheus Operator](https://prometheus-operator.dev/) - provides Kubernetes native deployment and management of Prometheus and related monitoring components. The purpose of this project is to simplify and automate the configuration of a Prometheus based monitoring stack for Kubernetes clusters.
 Used for storing and analyzing metrics and logs.
-3) [KEDA](https://keda.sh/) - allows for fine-grained autoscaling (including to / from zero) for event driven Kubernetes workloads. KEDA serves as a Kubernetes Metrics Server and allows users to define autoscaling rules using a dedicated Kubernetes custom resource definition.
+3) [KEDA](https://keda.sh/) - allows for fine-grained autoscaling (including to/from zero) for event driven Kubernetes workloads. KEDA serves as a Kubernetes Metrics Server and allows users to define autoscaling rules using a dedicated Kubernetes custom resource definition.
 Used for scaling platform services and private resources of user applications.
+
+## Install
+Run the following command in the root of the directory:
+```
+make install
+```
+
+## Uninstall
+Run the following command in the root of the directory:
+```
+make uninstall
+```
