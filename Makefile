@@ -48,6 +48,5 @@ uninstall:
 
 #   keda
 	helm uninstall -n $(INFRASTRUCTURE_NAMESPACE) $(KEDA_RELEASE_NAME)
-	kubectl delete -f ./keda/keda.k8s.io_scaledobjects_crd.yaml
 
 	kubectl delete ns $(INFRASTRUCTURE_NAMESPACE)
